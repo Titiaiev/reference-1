@@ -19,7 +19,7 @@ Share a quick reference cheat sheet [cheat sheet] for developers. This is the Ch
 The pit has been dug and needs your participation and [contribution](./docs/quickreference.md)! 🙏
 <!--rehype:style=padding-bottom: 23px;-->
 
-[Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆看看还缺点儿什么？-->
+[Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆See what else is missing?-->
 [CMake](./docs/cmake.md)<!--rehype:style=background: rgb(92 107 192);&class=contributing-->
 [C#](./docs/cs.md)<!--rehype:style=background: rgb(6 147 13);&class=contributing-->
 [Django](./docs/djiango.md)<!--rehype:style=background: rgb(12 75 51);&class=contributing tag&data-lang=Python-->
@@ -32,7 +32,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [NestJS](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);&class=contributing-->
 [MATLAB](./docs/matlab.md)<!--rehype:style=background: rgb(0 118 168);&class=contributing-->
 [Oracle](./docs/oracle.md)<!--rehype:style=background: rgb(255 0 0);&class=contributing tag&data-lang=SQL-->
-[Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆看看还缺点儿什么？-->
+[Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆See what else is missing?-->
 [Vue 3](./docs/vue.md)<!--rehype:style=background: rgb(64 184 131);&class=contributing-->
 <!--rehype:class=home-card-->
 
@@ -52,10 +52,10 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [GraphQL](./docs/graphql.md)<!--rehype:style=background: rgb(214 66 146);-->
 [INI](./docs/ini.md)<!--rehype:style=background: rgb(57 59 60);-->
 [JSON](./docs/json.md)<!--rehype:style=background: rgb(57 59 60);-->
-[Java](./docs/java.md)<!--rehype:style=background: rgb(211 55 49);&class=contributing&data-info=👆看看还缺点儿什么？-->
-[Julia](./docs/julia.md)<!--rehype:style=background: rgb(26 188 156);&class=contributing&data-info=👆看看还缺点儿什么？-->
-[Kotlin](./docs/kotlin.md)<!--rehype:style=background: rgb(211 55 49);&class=contributing&data-info=👆看看还缺点儿什么？-->
-[Kubernetes](./docs/kubernetes.md)<!--rehype:style=background: rgb(51 113 227);&class=contributing&data-info=👆看看还缺点儿什么？-->
+[Java](./docs/java.md)<!--rehype:style=background: rgb(211 55 49);&class=contributing&data-info=👆See what else is missing?-->
+[Julia](./docs/julia.md)<!--rehype:style=background: rgb(26 188 156);&class=contributing&data-info=👆See what else is missing?-->
+[Kotlin](./docs/kotlin.md)<!--rehype:style=background: rgb(211 55 49);&class=contributing&data-info=👆See what else is missing?-->
+[Kubernetes](./docs/kubernetes.md)<!--rehype:style=background: rgb(51 113 227);&class=contributing&data-info=👆See what else is missing?-->
 [LaTeX](./docs/latex.md)<!--rehype:style=background: rgb(0 128 128);&class=contributing-->
 [Laravel 8](./docs/laravel.md)<!--rehype:style=background: rgb(249 50 44);&class=contributing tag&data-lang=PHP-->
 [Markdown](./docs/markdown.md)<!--rehype:style=background: rgb(103 61 156);-->
@@ -69,12 +69,12 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [TOML](./docs/toml.md)<!--rehype:style=background: rgb(132 132 132);-->
 [YAML](./docs/yaml.md)<!--rehype:style=background: rgb(91 163 230);-->
 [Lua](./docs/lua.md)<!--rehype:style=background: rgb(3 3 128);-->
-[Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆看看还缺点儿什么？-->
+[Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆See what else is missing?-->
 <!--rehype:class=home-card-->
 
 ## front end
 
-[front-end navigation](./docs/feds.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=导航-->
+[front-end navigation](./docs/feds.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=navigation-->
 [CSS 3](./docs/css.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=CSS-->
 [Electron](./docs/electron.md)<!--rehype:style=background: rgb(0 72 153);-->
 [Emmet](./docs/emmet.md)<!--rehype:style=background: rgb(122 203 23);-->
@@ -123,8 +123,8 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 
 ## Order
 
-[ADB, Android Debug Bridge](./docs/adb.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=Android&data-info=👆看看还缺点儿什么？-->
-[Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆看看还缺点儿什么？-->
+[ADB, Android Debug Bridge](./docs/adb.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=Android&data-info=👆See what else is missing?-->
+[Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆See what else is missing?-->
 [Awk](./docs/awk.md)<!--rehype:style=background: rgb(16 185 129);-->
 [Conan](./docs/conan.md)<!--rehype:style=background: rgb(0 193 9);&class=tag&data-lang=C/C++-->
 [CocoaPods](./docs/cocoapods.md)<!--rehype:style=background: rgb(251 0 6);&class=tag&data-lang=C/C++-->
@@ -160,7 +160,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Zip](./docs/zip.md)<!--rehype:style=background: rgb(99 99 99);-->
 [APT](./docs/apt.md)<!--rehype:style=background: rgb(30 144 255);-->
 [tar](./docs/tar.md)<!--rehype:style=background: rgb(215 89 62);-->
-[Linux Command](./docs/linux-command.md)<!--rehype:style=background: rgb(215 89 62);&class=tag&data-lang=命令速查-->
+[Linux Command](./docs/linux-command.md)<!--rehype:style=background: rgb(215 89 62);&class=tag&data-lang=command quick check-->
 <!--rehype:class=home-card-->
 
 ## database
@@ -193,7 +193,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 
 ## other
 
-[Quick Reference](./docs/quickreference.md)<!--rehype:style=background: rgb(16 185 129);&class=tag&data-lang=排版说明-->
+[Quick Reference](./docs/quickreference.md)<!--rehype:style=background: rgb(16 185 129);&class=tag&data-lang=Typography-->
 [Aspect Ratio](./docs/aspect-ratio.md)<!--rehype:style=background: rgb(16 185 129);-->
 [Github Actions](./docs/github-actions.md)<!--rehype:style=background: rgb(121 184 255);-->
 [Gitlab CI/CD](./docs/gitlab-ci.md)<!--rehype:style=background: rgb(226 67 41);&class=contributing-->
@@ -206,7 +206,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Resolutions](./docs/resolutions.md)<!--rehype:style=background: rgb(16 185 129);-->
 <!--rehype:class=home-card-->
 
-## License
+<!-- ## License
 
-MIT © [Kenny Wong](https://github.com/jaywcjlove)
+MIT © [Kenny Wong](https://github.com/jaywcjlove) -->
 <!--rehype:ignore:end-->
