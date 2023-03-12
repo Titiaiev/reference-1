@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'jaywcjlove/reference'
+    if: github.repository == 'Titiaiev/reference-1'
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
