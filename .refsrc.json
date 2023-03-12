@@ -1,16 +1,16 @@
 {
-  "description": "{{description}}，为开发人员分享快速参考备忘单。",
+  "description": "{{description}}, to share a quick reference cheat sheet for developers.",
   "keywords": "reference,Quick,Reference,cheatsheet,cheat,sheet",
-  "data-info": "👆待完善需要您的参与",
+  "data-info": "👆Pending improvement requires your participation",
   "search": {
-    "label": "搜索",
-    "placeholder": "搜索备忘清单",
-    "cancel": "取消"
+    "label": "search",
+    "placeholder": "Search Cheat List",
+    "cancel": "Cancel"
   },
   "editor": {
-    "label": "编辑"
+    "label": "edit"
   },
   "github": {
-    "url": "https://github.com/jaywcjlove/reference"
+    "url": "https://github.com/Titiaiev/reference-1"
   }
 }
