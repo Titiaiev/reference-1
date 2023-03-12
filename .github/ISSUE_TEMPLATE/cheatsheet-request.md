@@ -1,37 +1,37 @@
 ---
-name: 🤙 备忘清单请求
-about: 请求添加备忘清单和参考。
-title: '请求添加备忘清单: '
+name: 🤙 Cheat Sheet Request
+about: Request to add checklists and references.
+title: 'request to add to checklist: '
 labels: request
 assignees: jaywcjlove
 ---
 
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧   
-注意：请求太多，参考【优先级】快速添加内容  
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧   
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+Note: There are too many requests, please refer to [Priority] to quickly add content
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
-#### 优先级
+#### priority
 
-- 提交 PR 优先合并(优先处理)
-- 提供可复制的[中文/英文]备忘清单资料，优先添加
-- 大众化的内容(java/python)，优先搬运(小众内容请提供资料)
+- submit PR priority merger(Prioritize)
+- provide reproducible[Chinese/English]Cheat list information, priority added
+- popular content(java/python), priority handling(For niche content, please provide information)
 
-#### 说明项目
+#### Explanation item
 
-您可以在这里简单的提供一些资料，方便我们在 Quick Reference 中添加您想添加的备忘清单(速查表)。
+You can simply provide some information here, so that we can Quick Reference Add the checklist you want to add to the(cheat sheet)。
 
-【请您在这里介绍一下工具或者语言，这很重要】
+[Please introduce the tool or language here, it is very important]
 
-- 如果你有一张不错的备忘清单(速查表) [`参考这里`](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) 为仓库贡献。
-- 如果您不方便贡献，请在下方参考资料中提供链接地址，方便共建备忘清单(速查表)
-- 这里为您提供了 Markdown 排版[示例教程](https://jaywcjlove.github.io/reference/docs/quickreference.html)
+- If you have a nice cheat sheet [`reference here`](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) contribute to the repository.
+- If it is not convenient for you to contribute, please provide the link address in the reference materials below to facilitate the co-construction of the memo list (cheat sheet)
+- Here is Markdown typography for you [sample tutorial](https://jaywcjlove.github.io/reference/docs/quickreference.html)
 
-#### 提供参考资料地址
+#### Provide reference address
 
-提供更多参考资料有助于我们整理成备忘清单(速查表)
+Provide more references to help us organize into a cheat list (cheat sheet)
 
-- [ ] 请提供**官网**资料 https://jaywcjlove.github.io/reference
-- [ ] 请提供**参考**资料 https://jaywcjlove.github.io/reference
-- [ ] 其它参考资料: <参考资料URL>
+- [ ] Please provide **official website** information https://jaywcjlove.github.io/reference
+- [ ] Please provide **Reference** https://jaywcjlove.github.io/reference
+- [ ] Other references: <Reference URL>
 
-_⚠️ 注意: 随着内容越来越多，可能甚至找不到这个工具或者语言的官网，请您在这里提供以便大家共同参与贡献内容_
+_⚠️ Note: With more and more content, you may not even find the official website of this tool or language, please provide it here so that everyone can participate in contributing content_
