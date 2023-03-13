@@ -1,4 +1,4 @@
-Quick Reference
+Краткий справочник
 ===
 
 <!--rehype:ignore:start-->
@@ -9,14 +9,17 @@ Quick Reference
 <!--rehype:ignore:end-->
 
 <!--rehype:ignore:start-->
-[![Quick Reference](https://user-images.githubusercontent.com/1680273/201931931-d8559417-0a15-46af-a009-ec1e56e5b778.png)](https://jaywcjlove.github.io/reference)
+[![Краткий справочник](https://user-images.githubusercontent.com/1680273/201931931-d8559417-0a15-46af-a009-ec1e56e5b778.png)](https://titiaiev.github.io/reference-1)
 <!--rehype:ignore:end-->
 
-Share a quick reference cheat sheet [cheat sheet] for developers. This is the Chinese version of the English version [Reference](https://github.com/Randy8080/reference), the purpose is to facilitate your own technology stack to check, if you provide a list, I will take the time to carry it, and roll it up immediately :) . If you find the cheat sheet here inappropriate, you can fix it or provide a better cheat by submitting a [PR](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) The list is only for [Chinese] users. Here are some cheat lists and quick references provided by open source angels :).
+Перед вами шпаргалки по программированию и около того. Это форк [китайской](https://github.com/jaywcjlove/reference) версии, который в свою очередь является форком известной [английской](https://github.com/Randy8080/reference) версии CheatSheets. Цель состоит в том, чтобы иметь краткие справочники для различных стеков технологий, иметь возможность быстро освежить память или бегло ознакомится с новой технологией. Если вы обнаружите, что какая либо шпаргалка здесь некоректа, вы можете исправить ее или предоставить лучший вариант, отправив [PR](https://github.com/titiaiev/reference-1/blob/main/CONTRIBUTING.md).
 
-## under construction...
+ Вот несколько шпаргалок и кратких ссылок, предоставленных ангелами открытого исходного кода :).
 
-The pit has been dug and needs your participation and [contribution](./docs/quickreference.md)! 🙏
+## В разработке...
+
+Проект нуждается в [контрибуторах](./docs/quickreference.md)! 🙏
+Поучавствуйте в переводе, дополнении существующих шпаргалок или написании новых.
 <!--rehype:style=padding-bottom: 23px;-->
 
 [Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆See what else is missing?-->
@@ -36,7 +39,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Vue 3](./docs/vue.md)<!--rehype:style=background: rgb(64 184 131);&class=contributing-->
 <!--rehype:class=home-card-->
 
-## programming
+## Программирование
 
 [Bash](./docs/bash.md)<!--rehype:style=background: rgb(72 143 223);-->
 [C](./docs/c.md)<!--rehype:style=background: rgb(92 107 192);-->
@@ -72,7 +75,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆See what else is missing?-->
 <!--rehype:class=home-card-->
 
-## front end
+## Front End
 
 [front-end navigation](./docs/feds.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=navigation-->
 [CSS 3](./docs/css.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=CSS-->
@@ -111,7 +114,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Yarn](./docs/yarn.md)<!--rehype:style=background: rgb(33 136 182);-->
 <!--rehype:class=home-card-->
 
-## tool
+## Инструменты
 
 [Emacs](./docs/emacs.md)<!--rehype:style=background: rgb(98 36 134);-->
 [Github](./docs/github.md)<!--rehype:style=background: rgb(36 41 47);-->
@@ -121,7 +124,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [XPath](./docs/xpath.md)<!--rehype:style=background: rgb(91 163 230);-->
 <!--rehype:class=home-card-->
 
-## Order
+## Утилиты
 
 [ADB, Android Debug Bridge](./docs/adb.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=Android&data-info=👆See what else is missing?-->
 [Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆See what else is missing?-->
@@ -163,7 +166,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Linux Command](./docs/linux-command.md)<!--rehype:style=background: rgb(215 89 62);&class=tag&data-lang=command quick check-->
 <!--rehype:class=home-card-->
 
-## database
+## Базы данных
 
 [MySQL](./docs/mysql.md)<!--rehype:style=background: rgb(1 117 143);&class=tag&data-lang=SQL-->
 [MongoDB](./docs/mongodb.md)<!--rehype:style=background: rgb(0 237 100);-->
@@ -172,7 +175,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Redis](./docs/redis.md)<!--rehype:style=background: rgb(198 47 44);-->
 <!--rehype:class=home-card-->
 
-## hot key
+## Горячие сочетания клавиш
 
 [Adobe Lightroom](./docs/adobe-lightroom.md)<!--rehype:style=background: rgb(49 168 255);-->
 [Adobe Photoshop](./docs/adobe-photoshop.md)<!--rehype:style=background: rgb(49 168 255);-->
@@ -191,7 +194,7 @@ The pit has been dug and needs your participation and [contribution](./docs/quic
 [Xcode](./docs/xcode.md)<!--rehype:style=background: rgb(24 151 233);&class=tag&data-lang=macOS-->
 <!--rehype:class=home-card-->
 
-## other
+## Остальное
 
 [Quick Reference](./docs/quickreference.md)<!--rehype:style=background: rgb(16 185 129);&class=tag&data-lang=Typography-->
 [Aspect Ratio](./docs/aspect-ratio.md)<!--rehype:style=background: rgb(16 185 129);-->
