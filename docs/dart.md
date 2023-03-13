@@ -1,12 +1,12 @@
-Dart 备忘清单
+Dart
 ===
 
-包含最重要概念、功能、方法等的 [Dart](https://dart.dev/) 备忘单。初学者的完整快速参考
+Содержит наиболее важные концепции, функции, методы и т.д. [Dart](https://dart.dev/) шпаргалка. Полный краткий справочник для начинающих.
 
-入门
+Начало
 -----
 
-### 安装 Dart
+### Установка Dart
 <!--rehype:wrap-class=row-span-2-->
 
 #### Windows
@@ -17,7 +17,7 @@ C:\> choco install dart-sdk # Windows
 
 #### Linux
 
-执行以下一次性设置
+Подключить необходимые репозитории
 
 ```bash
 $ sudo apt-get update
@@ -26,7 +26,7 @@ $ wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --d
 $ echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
 ```
 
-安装 Dart SDK
+Установить Dart SDK
 
 ```bash
 $ sudo apt-get update
@@ -43,13 +43,13 @@ $ brew install dart
 ### hello.dart
 
 ```dart
-// 应用执行开始的顶级函数
+// Главная функция с которой начинается выполнение приложения
 void main() {
-    print("Hello World!"); // 打印到控制台
+    print("Hello World!"); // печать в консоль
 }
 ```
 
-每个应用程序都有一个 `main()` 函数
+В каждом приложении есть `main()` функция
 
 #### Windows
 
@@ -59,113 +59,133 @@ $ time ./hello.exe
 Hello World!
 ```
 
-### 变量
+### Переменные
 
 ```dart
-int x = 2; // 显式键入
-var p = 5; // 类型推断 - 具有类型推断的通用var
-dynamic z = 8; // 变量可以采用任何类型
+int x = 2; // явная типизация
+var p = 5; // автоматически проанализирует тип
+dynamic z = 8; // переменная может быть любого типа. Отключает статическую проверку
 z = "cool"; // cool
 
-// 如果您从不打算更改变量，请使用 final 或 const
-// 像这样的东西：
+// используй final или const для объявления констант
+
 final email = "temid@gmail.com";
-// 与 var 相同，但不能重新分配
-final String email = "temid@gmail.com";
-// 你不能改变价值
-const qty = 5; // 编译时常数
+// динамически вычисляемая в рантайме константа
+final String email = user.getEmail();
+
+// только то что можно вычислить во время компиляции
+const bar = 1000000;
+const double atm = 1.01325 * bar; // константа времени компиляции
+
+//создание постоянных значений
+var foo = const [];
+final bar = const [];
+const baz = []; // эквивалентно `const []`
 ```
 
-### 数据类型
+### Типы данных
 <!--rehype:wrap-class=row-span-2-->
 
 ```dart
-// 整数，范围 -2^63 到 2^63 - 1
+// integer, от -2^63 до 2^63 - 1
 int age = 20;
-// 浮点数字
 
+// числа с плавающей точкой
 double height = 1.85;
-// 您还可以将变量声明为 num
-// x 可以同时具有 int 和 double 值
+// оба наследуются от num
+// соответственно x может быть обоих типов int и double
 num x = 1;
 num += 2.5;
-print(num); // 打印: 3.5
+print(num); // напечатает: 3.5
 
+// строковый тип.
 String name = "Nicola";
+var s1 = 'Строка может быть в одинарных кавычках';
+var s2 = "либо в двойных.";
+var s3 = 'Это \' экранирование';
+
+// логический тип
 bool isFavourite = true;
 bool isLoaded = false;
 ```
 
-### 注释
+### Интерполяция строк
 
 ```dart
-// 这是一条正常的单行注释
-/// 这是一个文档注释，用于文档库，
-/// 类及其成员。 IDE 和 dartdoc 等工具
-/// doc 特别注释。
-/* 也支持此类注释 */
-```
-
-### 字符串插值
-
-```dart
-// 可以对字符串类型使用单引号或双引号
 var firstName = 'Nicola';
 var lastName = "Tesla";
-// 可以用 $ 将变量嵌入到字符串中
-String fullName = "$firstName $lastName";
-// 与 + 连接
-var name = "Albert " + "Einstein";
-String upperCase = '${firstName.toUpperCase()}';
-print(upperCase); // 打印: NICOLA
-```
-<!--rehype:className=wrap-text -->
+// возможно вставлять переменные в строки с помощью $
+String fullName = "Привет, $firstName $lastName";
 
-### 导入 Imports
+// конкатенация
+var name = "Albert " + "Einstein";
+
+// интерполяция выражения ${var}
+String upperCase = '${firstName.toUpperCase()}';
+print(upperCase); // напечатает: NICOLA
+```
+
+### Комментарии
 
 ```dart
-// 导入核心库
+// однострочный комментарий
+
+/// Комментарий документации, используемый библиотекой комментариев,
+/// Используя скобки [], вы можете ссылаться на классы, методы, поля, переменные верхнего уровня,
+/// функции и параметры.
+
+/*
+  многострочный
+  комментарий
+*/
+```
+
+<!--rehype:className=wrap-text -->
+
+### Импорт
+
+```dart
+// импорт встроенных библиотек
 import 'dart:math';
-// 从外部包导入库
+// импорт из внешних библиотек
 import 'package:test/test.dart';
-// 导入文件
+// импорт файлов
 import 'path/to/my_other_file.dart';
 ```
 
-操作符
+Операторы
 -------
 
-### 算术运算符
+### Арифметические операторы
 <!--rehype:wrap-class=row-span-2-->
 
 ```dart
-print(2 + 3);  // 打印: 5
-print(2 - 3);  // 打印: -1
-print(2 * 3);  // 打印: 6
-print(5 / 2);  // 打印: 2.5 - 结果是 double
-print(5 ~/ 2); // 打印: 2 - 结果是n int
-print(5 % 2);  // 打印: 1 - 余
-int a = 1, b;
+print(2 + 3);  // сложение
+print(2 - 3);  // вычитание
+print(2 * 3);  // умножение
+print(5 / 2);  // деление - перевод на double
+print(5 ~/ 2); // целочисленное деление, напечатает: 2 - результат типа int
+print(5 % 2);  // остаток от деления (1)
 ```
 
 ----
 
 ```dart
-// 增
-b = ++a; // 前增量 - 在 b 获得其值之前增加 a
-b = a++; // 后增量 - 在 b 获得它的值之后增加 a
-// 递
-b = --a; // 前减量 - 在 b 获得它的值之前减少 a
-b = a--; // 后减量 - 在 b 获得它的值之后递减 a
+// инкремент
+b = ++a;
+b = a++;
+// декремент
+b = --a;
+b = a--;
 ```
 
-### 逻辑运算符
+### Логические операторы
 <!--rehype:wrap-class=col-span-2-->
 
 ```dart
-// !expr 反转表达式（将 false 更改为 true，反之亦然）
-// ||  逻辑或
-// &&  逻辑与
+// !expr логическое не (меняет false на true и наоборот)
+// || логическое или
+// && логическое и
 bool isOutOfStock = false;
 int quantity = 3;
 if (!isOutOfStock && (quantity == 2 || quantity == 3)) {
@@ -173,21 +193,21 @@ if (!isOutOfStock && (quantity == 2 || quantity == 3)) {
 }
 ```
 
-### 等式和关系运算符
+### Операторы сравнения и отношения
 
 ```dart
-print(2 == 2); // 打印: true - 平等的
-print(2 != 3); // 打印: true - 不相等
-print(3 > 2);  // 打印: true - 比...更棒
-print(2 < 3);  // 打印: true - 少于
-print(3 >= 3); // 打印: true - 大于或等于
-print(2 <= 3); // 打印: true - 小于或等于
+print(2 == 2); // (true) - равно
+print(2 != 3); // (true) - не равно
+print(3 > 2);  // (true) - больше чем
+print(2 < 3);  // (true) - меньше чем
+print(3 >= 3); // (true) - больше либо равно
+print(2 <= 3); // (true) - меньше либо равно
 ```
 
-控制流：条件
+Поток выполнения: Условия
 ------
 
-### if 和 else if
+### if и else if
 
 ```dart
 if(age < 18){
@@ -214,13 +234,13 @@ switch(myPet){
     default:
         print('I don\'t have a Pet');
 }
-// 打印: My Pet is Dog.
+// напечатает: My Pet is Dog.
 ```
 
-控制流：循环
+Поток выполнения: Циклы
 -----
 
-### while 循环
+### while цикл
 
 ```dart
 while (!dreamsAchieved) {
@@ -228,9 +248,9 @@ while (!dreamsAchieved) {
 }
 ```
 
-循环迭代之前的 `while` 循环检查条件
+перед новой итерацией `while` цикл проверит условие
 
-### do-while 循环
+### do-while цикл
 
 ```dart
 do {
@@ -238,29 +258,29 @@ do {
 } while (!dreamsAchieved);
 ```
 
-`do-while` 循环在执行循环内的语句后验证条件
+`do-while` Цикл проверяет условие после выполнения операторов внутри цикла.
 
-### for 循环
+### for цикл
 
 ```dart
 for(int i=0; i< 10; i++){
     print(i);
 }
 var numbers = [1,2,3];
-// 列表的 for-in 循环
+
 for(var number in numbers){
     print(number);
 }
 ```
 
-Collections
+Коллекции
 ------------
 
-### Lists
+### Lists (списки)
 <!--rehype:wrap-class=col-span-2-->
 
 ```dart
-// 有序的对象组
+// ordered group of objects
 var list = [1, 2, 3];
 print(list.length); //Print: 3
 print(list[1]); //Print: 2
@@ -270,7 +290,7 @@ List<String> cities = <String>["New York", "Mumbai", "Tokyo"];
 const constantCities = const ["New York", "Mumbai", "Tokyo"];
 ```
 
-### Maps
+### Maps (карты)
 <!--rehype:wrap-class=row-span-2-->
 
 ```dart
@@ -285,14 +305,14 @@ print(person['lastName']);
 // 打印: Tesla
 
 var nobleGases = {
-  // Key: Value
+  // ключ: значение
   2: 'helium',
   10: 'neon',
   18: 'argon',
 };
 ```
 
-### Sets
+### Sets (множества)
 <!--rehype:wrap-class=col-span-2-->
 
 ```dart
@@ -533,7 +553,7 @@ enum PlanetType { terrestrial, gas, ice }
 enum Planet {
   mercury(planetType: PlanetType.terrestrial, moons: 0, hasRings: false),
   venus(planetType: PlanetType.terrestrial, moons: 0, hasRings: false),
-  
+
   uranus(planetType: PlanetType.ice, moons: 27, hasRings: true),
   neptune(planetType: PlanetType.ice, moons: 14, hasRings: true);
 
